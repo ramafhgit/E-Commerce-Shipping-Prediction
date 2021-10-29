@@ -82,4 +82,16 @@ Notes:<br>
 * <b>Implement the machine learning model to internal environment of the company</b>, so that the company can make a countermeasure toward the products that are expected to be late.
 * <b>Keep the customer up to date</b>, so that they know whether their products will arrive on time.
 * <b>Keep an eye on the sale days</b>, since it might be causing the late shipment based regarding the discount. Possible solution:<b> Hire temporary workers, collaborate with 3rd party shipping companies to increase the shipping fleet, etc.</b>
-* 
+* <b>Create a hierarchical shipment system </b> according to product importance so that the products with higher importance receive special treatments.
+
+# Our Team
+This project is part of a learning path for Data Science Bootcamp in [Rakamin_Academy](https://rakamin.com/), and is done by our team : <i>Smells Like Team Spirit</i>.<br>
+**Smells Like Team Spirit Members**
+| Member | Email | LinkedIn |
+| --- | --- | --- | --- |
+| **Our Friendly Mentor: Gerry Chandra** | - | https://www.linkedin.com/in/gerrychandra |
+| **Rama Hakiim (me)** | ramafhakiim@gmail.com | https://www.linkedin.com/in/ramafhakiim |
+| **Fajri Ardiansyah** | ardiansyahfajri@gmail.com | - |
+| **Alya Atiqoh** | alyaaatiqoh123@gmail.com | - |
+| **Teguh Tri Handoyo** | teguhtrihandoyo1@gmail.com | www.linkedin.com/in/teguh-tri-handoyo-51437312b/ |
+| **Saniyyah Larissa** | SaniyyahLarissa@gmail.com | www.linkedin.com/in/saniyyah-larissa-3943271b4/ |
