@@ -69,12 +69,17 @@ Which means, if our assumptions are correct, then the <b> late shipment rate</b>
 
 | Metrics | Before | After |
 | --- | --- | --- |
-| **Late Shipment Rate** | **59.6%** | **17.9** |
-| **Potential Loss** | **$412,772** |  **123,806** |
+| **Late Shipment Rate** | **59.6%** | **17.9%** |
+| **Potential Loss** | **$412,772** |  **$123,806** |
 
 Notes:<br>
 * Potential loss are calculated by assuming that the customer whose products arrived late would churn.
 * Customer value are calculated by averaging total cost of products per unique customer.
 * The 'After' potential loss are calculated by multiplying the customer value to 17.9% of the original dataset size.
+* All these potential impacts are based on the assumption that all the products that are predicted to arrive late could be anticipated so that they arrive on time instead.
 
 ## Business Recommendation
+* <b>Implement the machine learning model to internal environment of the company</b>, so that the company can make a countermeasure toward the products that are expected to be late.
+* <b>Keep the customer up to date</b>, so that they know whether their products will arrive on time.
+* <b>Keep an eye on the sale days</b>, since it might be causing the late shipment based regarding the discount. Possible solution:<b> Hire temporary workers, collaborate with 3rd party shipping companies to increase the shipping fleet, etc.</b>
+* 
