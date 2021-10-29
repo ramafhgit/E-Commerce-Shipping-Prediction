@@ -86,10 +86,11 @@ Notes:<br>
 
 # Our Team
 This project is part of a learning path for Data Science Bootcamp in [Rakamin_Academy](https://rakamin.com/), and is done by our team : <i>Smells Like Team Spirit</i>.<br>
-**Smells Like Team Spirit Members**<br>
+<br>
+**Members**<br>
 | Member | Email | LinkedIn |
 | --- | --- | --- |
-| **Our Beloved Mentor: Gerry Chandra** | - | https://www.linkedin.com/in/gerrychandra |
+| **Our Mentor: Gerry Chandra** | - | https://www.linkedin.com/in/gerrychandra |
 | **Rama Hakiim (me)** | ramafhakiim@gmail.com | https://www.linkedin.com/in/ramafhakiim |
 | **Fajri Ardiansyah** | ardiansyahfajri@gmail.com | - |
 | **Alya Atiqoh** | alyaaatiqoh123@gmail.com | - |
