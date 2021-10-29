@@ -11,7 +11,7 @@ Anterin Dong is an Indonesian e-commerce company that has its own shipment servi
 Now as things stand, Anterin Dong has a 59.6% late shipment rate which means the majority of the shipment is arriving late. This is obviously a problem.
 
 ## Goals
-We want to <b>minimize the possibility of late shipment </b> so that the late shipment rate could drop at least by 20%.
+We want to <b>minimize the possibility of late shipment </b> so that the late shipment rate could drop to at least 20%.
 
 ## Objective
 Create a model to predict the shipment arrival; so that the company knows which products is going to arrive late.
@@ -60,3 +60,21 @@ For the potential impact, here the scenario that we created:<br>
 * Every products arrival are predicted before they are shipped
 * Assume that with the prediction result, the company already knows which products are expected to be late. Therefore, they should be able to make countermeasure for those products and hopefully, they will arrive on time instead.
 
+Now if we take a look at the confusion matrix<br>
+![alt text](https://github.com/ramafhgit/E-Commerce-Shipping-Prediction/blob/main/conf.png "conf matrix")<br>
+
+If we assume that all the products that are predicted to be late can be handled by the company so that they won't, then the only products that <b>will</b> be late is the one in the false negative domain. These products are predicted to arrive on time, so there is no way the company would know that they would be late.<br>
+
+Which means, if our assumptions are correct, then the <b> late shipment rate</b> would only be around <b>17.9%</b>.
+
+| Metrics | Before | After |
+| --- | --- | --- |
+| **Late Shipment Rate** | **59.6%** | **17.9** |
+| **Potential Loss** | **$412,772** |  **123,806** |
+
+Notes:<br>
+* Potential loss are calculated by assuming that the customer whose products arrived late would churn.
+* Customer value are calculated by averaging total cost of products per unique customer.
+* The 'After' potential loss are calculated by multiplying the customer value to 17.9% of the original dataset size.
+
+## Business Recommendation
