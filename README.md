@@ -31,9 +31,16 @@ From the third graph we can look at them more clearly:
 
 * Products that arrived on time has the discount value in range of 0%-10%. Other than that, the shipments are always late.
 * The weights of the products that arrived on time are in range of 1-2 kg or 4-6 kg. Other than those, the shipments are late.
+Now this begs us the question:<br>
+a. Why would product weight matter in a shipment punctuality?<br>
+b. Is there a different handling in products with a higher discount and the ones that have lower discount?<br>
+c. Was there any specific events related to the discounts? For example: sale day, black friday, etc so that the demand actually became out of hand hence the late shipment?<br>
 
 3. Product Importance. <br>
 ![alt text](https://github.com/ramafhgit/E-Commerce-Shipping-Prediction/blob/main/prod%20imp.png "prod imp")<br>
 As we can see, there are 3 product importance category : low, medium, and high. <br>
-But then it's curious how all of them has the same late shipment rate. Products with higher product importance should be prioritized; meaning their late shipment rate has to be lower to the other category -- if possible close to zero.<br>
+But then it's curious how all of them has a similar late shipment rate. Products with higher product importance should be prioritized; meaning their late shipment rate has to be lower to the other category -- if possible close to zero.<br>
 This shows that the management regarding the product importance is not as good as it should be.
+
+## Modeling
+For the modeling we compare the performance between 3 algorithms: Logistic Regression, Random Forest, XGBoost.
