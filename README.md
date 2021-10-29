@@ -43,4 +43,12 @@ But then it's curious how all of them has a similar late shipment rate. Products
 This shows that the management regarding the product importance is not as good as it should be.
 
 ## Modeling
-For the modeling we compare the performance between 3 algorithms: Logistic Regression, Random Forest, XGBoost.
+For the modeling we compare the performance between 3 algorithms: Logistic Regression, Random Forest, XGBoost. The modelings are done using the preprocessed dataset and using hyperparameter tuning.<br>
+Models are evaluated using AUC score and Recall. The models performances are shown below.<br>
+
+| Model | AUC Score | Recall |
+| --- | --- | --- |
+| **Logistic Regression** | **71%** | **75%** |
+| **Random Forest** | **74%** |  **67%** |
+| **XGBoost** | **73%** | **70%** |
+
