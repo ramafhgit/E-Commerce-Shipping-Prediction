@@ -52,3 +52,11 @@ Models are evaluated using AUC score and Recall. The models performances are sho
 | **Random Forest** | **74%** |  **67%** |
 | **XGBoost** | **73%** | **70%** |
 
+From the performances above, we recommend <b>XGBoost </b>for the machine learning algorithm for shipping prediction model.
+
+## Potential Impact
+For the potential impact, here the scenario that we created:<br>
+* The model is implemented for the internal environment of the company
+* Every products arrival are predicted before they are shipped
+* Assume that with the prediction result, the company already knows which products are expected to be late. Therefore, they should be able to make countermeasure for those products and hopefully, they will arrive on time instead.
+
