@@ -77,7 +77,7 @@ Notes:<br>
 * Potential loss are calculated by assuming that the customer whose products arrived late would churn.
 * Customer value are calculated by averaging total cost of products per unique customer.
 * The 'After' potential loss are calculated by multiplying the customer value to 17.9% of the original dataset size.
-* Our initial goal of minimizing the late shipment rate to 20% <b>is fulfilled</b>
+* Our initial goal of minimizing the late shipment rate to 20% <b>is fulfilled</b>.
 * All these potential impacts are based on the assumption that all the products that are predicted to arrive late could be anticipated so that they arrive on time instead.
 
 ## Business Recommendation
