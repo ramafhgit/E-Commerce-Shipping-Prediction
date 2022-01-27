@@ -87,7 +87,7 @@ Notes:<br>
 * <b>Create a hierarchical shipment system </b> according to product importance so that the products with higher importance receive special treatments.
 
 # Our Team
-This project is part of a learning path for Data Science Bootcamp in [Rakamin_Academy](https://rakamin.com/), and is done by our team : <i>Smells Like Team Spirit</i>.<br>
+This project is part of a learning path for Data Science Bootcamp in [Rakamin Academy](https://rakamin.com/), and is done by our team : <i>Smells Like Team Spirit</i>.<br>
 <br>
 **Members**<br>
 | Member | Email | LinkedIn |
