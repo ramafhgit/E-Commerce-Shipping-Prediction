@@ -14,7 +14,7 @@ Now as things stand, Anterin Dong has a 59.6% late shipment rate which means the
 We want to <b>minimize the possibility of late shipment </b> so that the late shipment rate could drop to at least 20%.
 
 ## Objective
-Create a model to predict the shipment arrival; so that the company knows which products is going to arrive late.
+Create a model to predict the shipment arrival; so that the company knows which products are going to arrive late.
 
 ## Insights
 1. Target column distribution is imbalanced, but still acceptable.<br>
